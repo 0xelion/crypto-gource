@@ -423,9 +423,704 @@ sed -i -r "s#(.+)\|#\1|/news#" news.txt
 
 cat yellowpaper.txt solidity.txt cpp-ethereum.txt tests.txt eth-bloom.txt py-evm.txt go-ethereum.txt ethereumj.txt eth-tester.txt web3.py.txt homestead-guide.txt remix.txt web3.js.txt plasma.txt mist.txt cbc-casper.txt evmjit.txt vyper.txt solc-bin.txt solidity-test-bytecode.txt eth-abi.txt wiki.txt ethereum-org.txt hunter-cache.txt remixd.txt EIPs.txt browser-solidity.txt meteor-dapp-wallet.txt swarm-dapps.txt py-trie.txt sharding.txt eth-utils.txt eth-keys.txt research.txt pyethereum.txt py_pairing.txt casper.txt solc-js.txt remix-live.txt ethereum-org-website.txt populus.txt pyethapp.txt py-geth.txt pydevp2p.txt ethash.txt emacs-solidity.txt pyrlp.txt eth-keyfile.txt ens-registrar-dapp.txt dopple.txt pm.txt moon-browser.txt pyeth_keys.txt ens.txt homebrew-ethereum.txt py-solc.txt ecp.txt dapp-bin.txt py_ecc.txt documentation.txt common.txt solidity-examples.txt ropsten.txt serpent.txt meteor-dapp-catalog.txt moon-lang.txt btcrelay.txt blockies.txt langlab.txt meteor-package-accounts.txt moon-tool.txt meteor-package-tools.txt rpc-tests.txt benchmarking.txt dapp-styles.txt meteor-package-elements.txt stake-voice.txt cpp-dependencies.txt go-casper.txt webthree-umbrella.txt ethereum-client-binaries.txt ethendance.txt simplecasper.txt oyente.txt diary.txt meteor-dapp-whisper-chat-client.txt ethereum-console.txt libsnark.txt scavenger_hunt.txt statesweep.txt meteor-ethereum-networkinfo.txt meteor-package-blocks.txt interfaces.txt evmc.txt webthree-helpers.txt webthree.txt libweb3core.txt libethereum.txt alethzero.txt mix.txt economic-modeling.txt libwhisper.txt ethereum-buildbot.txt test-tools.txt vim-solidity.txt leveldb.txt cpp-dependencies-win64.txt cryptopp.txt ethereum-dockers.txt ethereum-ppa.txt jenkins-docker.txt guide.txt bench.txt devp2p.txt ethbot.txt node-ethereum.txt ethereum-docs.txt gethkey.txt cpp-ethereum-cmake.txt devcommon.txt genesis_block_generator.txt frontier-guide.txt pyethsaletool.txt solidity.js.txt ethereum.org.txt system-testing.txt jeff.txt gav.txt go-build.txt natspec.js.txt profiling.txt cpp-ethash.txt ethdev-site.txt www.txt serpent-go.txt foundation.txt tryethereum.txt mining.txt news.txt branding.txt | sort -n > ethereum-project.txt
 
-cp avatar.pl ethereum/
+cp avatar.pl yellowpaper/
+cp avatar.pl solidity/
+cp avatar.pl cpp-ethereum/
+cp avatar.pl tests/
+cp avatar.pl eth-bloom/
+cp avatar.pl py-evm/
+cp avatar.pl go-ethereum/
+cp avatar.pl ethereumj/
+cp avatar.pl eth-tester/
+cp avatar.pl web3.py/
+cp avatar.pl homestead-guide/
+cp avatar.pl remix/
+cp avatar.pl web3.js/
+cp avatar.pl plasma/
+cp avatar.pl mist/
+cp avatar.pl cbc-casper/
+cp avatar.pl evmjit/
+cp avatar.pl vyper/
+cp avatar.pl solc-bin/
+cp avatar.pl solidity-test-bytecode/
+cp avatar.pl eth-abi/
+cp avatar.pl wiki/
+cp avatar.pl ethereum-org/
+#cp avatar.pl hunter-cache/
+cp avatar.pl remixd/
+cp avatar.pl EIPs/
+cp avatar.pl browser-solidity/
+cp avatar.pl meteor-dapp-wallet/
+cp avatar.pl swarm-dapps/
+cp avatar.pl py-trie/
+cp avatar.pl sharding/
+cp avatar.pl eth-utils/
+cp avatar.pl eth-keys/
+cp avatar.pl research/
+cp avatar.pl pyethereum/
+cp avatar.pl py_pairing/
+cp avatar.pl casper/
+cp avatar.pl solc-js/
+cp avatar.pl remix-live/
+cp avatar.pl ethereum-org-website/
+cp avatar.pl populus/
+cp avatar.pl pyethapp/
+cp avatar.pl py-geth/
+cp avatar.pl pydevp2p/
+cp avatar.pl ethash/
+cp avatar.pl emacs-solidity/
+cp avatar.pl pyrlp/
+cp avatar.pl eth-keyfile/
+cp avatar.pl ens-registrar-dapp/
+cp avatar.pl dopple/
+cp avatar.pl pm/
+cp avatar.pl moon-browser/
+cp avatar.pl pyeth_keys/
+cp avatar.pl ens/
+cp avatar.pl homebrew-ethereum/
+cp avatar.pl py-solc/
+cp avatar.pl ecp/
+cp avatar.pl dapp-bin/
+cp avatar.pl py_ecc/
+cp avatar.pl documentation/
+cp avatar.pl common/
+cp avatar.pl solidity-examples/
+cp avatar.pl ropsten/
+cp avatar.pl serpent/
+cp avatar.pl meteor-dapp-catalog/
+cp avatar.pl moon-lang/
+cp avatar.pl btcrelay/
+cp avatar.pl blockies/
+cp avatar.pl langlab/
+cp avatar.pl meteor-package-accounts/
+cp avatar.pl moon-tool/
+cp avatar.pl meteor-package-tools/
+cp avatar.pl rpc-tests/
+cp avatar.pl benchmarking/
+cp avatar.pl dapp-styles/
+cp avatar.pl meteor-package-elements/
+cp avatar.pl stake-voice/
+cp avatar.pl cpp-dependencies/
+#cp avatar.pl go-casper/
+cp avatar.pl webthree-umbrella/
+cp avatar.pl ethereum-client-binaries/
+cp avatar.pl ethendance/
+cp avatar.pl simplecasper/
+cp avatar.pl oyente/
+cp avatar.pl diary/
+cp avatar.pl meteor-dapp-whisper-chat-client/
+cp avatar.pl ethereum-console/
+cp avatar.pl libsnark/
+cp avatar.pl scavenger_hunt/
+cp avatar.pl statesweep/
+cp avatar.pl meteor-ethereum-networkinfo/
+cp avatar.pl meteor-package-blocks/
+cp avatar.pl interfaces/
+#cp avatar.pl evmc/
+cp avatar.pl webthree-helpers/
+cp avatar.pl webthree/
+cp avatar.pl libweb3core/
+cp avatar.pl libethereum/
+cp avatar.pl alethzero/
+cp avatar.pl mix/
+cp avatar.pl economic-modeling/
+cp avatar.pl libwhisper/
+cp avatar.pl ethereum-buildbot/
+cp avatar.pl test-tools/
+cp avatar.pl vim-solidity/
+cp avatar.pl leveldb/
+#cp avatar.pl cpp-dependencies-win64/
+cp avatar.pl cryptopp/
+cp avatar.pl ethereum-dockers/
+cp avatar.pl ethereum-ppa/
+#cp avatar.pl jenkins-docker/
+cp avatar.pl guide/
+cp avatar.pl bench/
+cp avatar.pl devp2p/
+cp avatar.pl ethbot/
+cp avatar.pl node-ethereum/
+cp avatar.pl ethereum-docs/
+cp avatar.pl gethkey/
+cp avatar.pl cpp-ethereum-cmake/
+cp avatar.pl devcommon/
+cp avatar.pl genesis_block_generator/
+cp avatar.pl frontier-guide/
+cp avatar.pl pyethsaletool/
+cp avatar.pl solidity.js/
+cp avatar.pl ethereum.org/
+cp avatar.pl system-testing/
+cp avatar.pl jeff/
+#cp avatar.pl gav/
+cp avatar.pl go-build/
+cp avatar.pl natspec.js/
+cp avatar.pl profiling/
+cp avatar.pl cpp-ethash/
+cp avatar.pl ethdev-site/
+cp avatar.pl www/
+cp avatar.pl serpent-go/
+cp avatar.pl foundation/
+cp avatar.pl tryethereum/
+cp avatar.pl mining/
+cp avatar.pl news/
+#cp avatar.pl branding/
 
-cd ethereum
+cd yellowpaper
 perl avatar.pl
 cp -rf .git/avatar ../
 cd ..
+cd solidity
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd cpp-ethereum
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd tests
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd eth-bloom
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd py-evm
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd go-ethereum
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereumj
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd eth-tester
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd web3.py
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd homestead-guide
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd remix
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd web3.js
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd plasma
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd mist
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd cbc-casper
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd evmjit
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd vyper
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd solc-bin
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd solidity-test-bytecode
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd eth-abi
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd wiki
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-org
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+#cd hunter-cache
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
+cd remixd
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd EIPs
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd browser-solidity
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-dapp-wallet
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd swarm-dapps
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd py-trie
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd sharding
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd eth-utils
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd eth-keys
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd research
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd pyethereum
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd py_pairing
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd casper
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd solc-js
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd remix-live
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-org-website
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd populus
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd pyethapp
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd py-geth
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd pydevp2p
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethash
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd emacs-solidity
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd pyrlp
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd eth-keyfile
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ens-registrar-dapp
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd dopple
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd pm
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd moon-browser
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd pyeth_keys
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ens
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd homebrew-ethereum
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd py-solc
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ecp
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd dapp-bin
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd py_ecc
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd documentation
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd common
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd solidity-examples
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ropsten
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd serpent
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-dapp-catalog
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd moon-lang
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd btcrelay
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd blockies
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd langlab
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-package-accounts
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd moon-tool
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-package-tools
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd rpc-tests
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd benchmarking
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd dapp-styles
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-package-elements
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd stake-voice
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd cpp-dependencies
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+#cd go-casper
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
+cd webthree-umbrella
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-client-binaries
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethendance
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd simplecasper
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd oyente
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd diary
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-dapp-whisper-chat-client
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-console
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd libsnark
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd scavenger_hunt
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd statesweep
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-ethereum-networkinfo
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd meteor-package-blocks
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd interfaces
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+#cd evmc
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
+cd webthree-helpers
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd webthree
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd libweb3core
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd libethereum
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd alethzero
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd mix
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd economic-modeling
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd libwhisper
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-buildbot
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd test-tools
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd vim-solidity
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd leveldb
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+#cd cpp-dependencies-win64
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
+cd cryptopp
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-dockers
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-ppa
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+#cd jenkins-docker
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
+cd guide
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd bench
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd devp2p
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethbot
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd node-ethereum
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum-docs
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd gethkey
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd cpp-ethereum-cmake
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd devcommon
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd genesis_block_generator
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd frontier-guide
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd pyethsaletool
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd solidity.js
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethereum.org
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd system-testing
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd jeff
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+#cd gav
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
+cd go-build
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd natspec.js
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd profiling
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd cpp-ethash
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ethdev-site
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd www
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd serpent-go
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd foundation
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd tryethereum
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd mining
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd news
+perl avatar.pl
+cp -rf .git/avatar ../
+cd ..
+#cd branding
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
