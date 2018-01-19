@@ -1,0 +1,10 @@
+1390435200|Ethereum is announced
+1405987200|Ethereum Sale
+1431648000|Olympic pre-release (testnet)
+1438214400|Ethereum 1.0 Frontier is released
+1457913600|Ethereum 2.0 Homestead is released
+1461974400|The DAO Launch
+1468972800|The DAO Hard-fork
+1476748800|The Spurious Dragon Hard-fork
+1493856000|The ENS Launch
+1508112000|Ethereum 3.0 Metropolis is released
