@@ -15,10 +15,10 @@ sed -i -r "s#(.+)\|#\1|/libbase58#" libbase58.txt
 
 cat bitcoin.txt bips.txt libblkmaker.txt libbase58.txt | sort -n > bitcoin-core-project.txt
 
-cp bitcoin-core-project-avatar.pl bitcoin/
-cp bitcoin-core-project-avatar.pl bips/
-cp bitcoin-core-project-avatar.pl libblkmaker/
-cp bitcoin-core-project-avatar.pl libbase58/
+cp avatar.pl bitcoin/
+cp avatar.pl bips/
+cp avatar.pl libblkmaker/
+cp avatar.pl libbase58/
 
 cd bitcoin
 perl avatar.pl
