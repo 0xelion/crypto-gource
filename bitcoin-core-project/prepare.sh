@@ -22,20 +22,20 @@ cp avatar.pl libbase58/
 
 cd bitcoin
 perl avatar.pl
-cp -f .git/avatar ../
+cp -rf .git/avatar ../
 cd ..
 
 cd bips
 perl avatar.pl
-cp -f .git/avatar ../
+cp -rf .git/avatar ../
 cd ..
 
 cd libblkmaker
 perl avatar.pl
-cp -f .git/avatar ../
+cp -rf .git/avatar ../
 cd ..
 
 cd libbase58
 perl avatar.pl
-cp -f .git/avatar ../
+cp -rf .git/avatar ../
 cd ..
