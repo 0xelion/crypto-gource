@@ -16,4 +16,4 @@ sed -i -r "s#(.+)\|#\1|/libbase58#" libbase58.txt
 
 cat bitcoin.txt bips.txt libblkmaker.txt libbase58.txt | sort -n > bitcoin-core-project.txt
 
-gource -1920x1080 --seconds-per-day 0.2 -r 60 --file-idle-time 0 --title 'Bitcoin Core Project' bitcoin-core-project.txt -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset veryfast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 bitcoin-core-project.mp4
+gource -1920x1080 --seconds-per-day 0.2 -r 60 --file-idle-time 0 --title 'Bitcoin Core Project' --caption-file bitcoin-core-project-caption.txt --caption-size 24 --caption-duration 5 bitcoin-core-project.txt -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset veryfast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 bitcoin-core-project.mp4

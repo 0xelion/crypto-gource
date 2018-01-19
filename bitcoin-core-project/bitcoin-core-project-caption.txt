@@ -1,0 +1,17 @@
+1260921600|Bitcoin 0.2 is released
+1278460800|Bitcoin 0.3 is released
+1292112000|Satoshi Nakamoto leave the project
+1316736000|Bitcoin 0.4 is released
+1321833600|Bitcoin 0.5 is released
+1333065600|Bitcoin 0.6 is released
+1347840000|Bitcoin 0.7 is released
+1361232000|Bitcoin 0.8 is released
+1395187200|Bitcoin 0.9 is released
+1424044800|Bitcoin 0.10 is released
+1436659200|Bitcoin 0.11 is released
+1456185600|Bitcoin 0.12 is released
+1471910400|Bitcoin 0.13 is released
+1488931200|Bitcoin 0.14 is released
+1501545600|Bitcoin Cash Hard-fork
+1503446400|Segwit activation Soft-fork
+1505347200|Bitcoin 0.15 is released
