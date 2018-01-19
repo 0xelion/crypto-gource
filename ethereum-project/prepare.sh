@@ -105,7 +105,7 @@ git clone https://github.com/ethereum/test-tools
 git clone https://github.com/ethereum/vim-solidity
 #git clone https://github.com/ethereum/leveldb
 #git clone https://github.com/ethereum/cpp-dependencies-win64
-git clone https://github.com/ethereum/cryptopp
+#git clone https://github.com/ethereum/cryptopp
 git clone https://github.com/ethereum/ethereum-dockers
 git clone https://github.com/ethereum/ethereum-ppa
 #git clone https://github.com/ethereum/jenkins-docker
@@ -246,7 +246,7 @@ gource --output-custom-log test-tools.txt test-tools
 gource --output-custom-log vim-solidity.txt vim-solidity
 #gource --output-custom-log leveldb.txt leveldb
 #gource --output-custom-log cpp-dependencies-win64.txt cpp-dependencies-win64
-gource --output-custom-log cryptopp.txt cryptopp
+#gource --output-custom-log cryptopp.txt cryptopp
 gource --output-custom-log ethereum-dockers.txt ethereum-dockers
 gource --output-custom-log ethereum-ppa.txt ethereum-ppa
 #gource --output-custom-log jenkins-docker.txt jenkins-docker
@@ -387,7 +387,7 @@ sed -i -r "s#(.+)\|#\1|/test-tools#" test-tools.txt
 sed -i -r "s#(.+)\|#\1|/vim-solidity#" vim-solidity.txt
 #sed -i -r "s#(.+)\|#\1|/leveldb#" leveldb.txt
 #sed -i -r "s#(.+)\|#\1|/cpp-dependencies-win64#" cpp-dependencies-win64.txt
-sed -i -r "s#(.+)\|#\1|/cryptopp#" cryptopp.txt
+#sed -i -r "s#(.+)\|#\1|/cryptopp#" cryptopp.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-dockers#" ethereum-dockers.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-ppa#" ethereum-ppa.txt
 #sed -i -r "s#(.+)\|#\1|/jenkins-docker#" jenkins-docker.txt
@@ -530,7 +530,7 @@ cp avatar.pl test-tools/
 cp avatar.pl vim-solidity/
 cp avatar.pl leveldb/
 #cp avatar.pl cpp-dependencies-win64/
-cp avatar.pl cryptopp/
+#cp avatar.pl cryptopp/
 cp avatar.pl ethereum-dockers/
 cp avatar.pl ethereum-ppa/
 #cp avatar.pl jenkins-docker/
@@ -992,10 +992,10 @@ cd ..
 #perl avatar.pl
 #cp -rf .git/avatar ../
 #cd ..
-cd cryptopp
-perl avatar.pl
-cp -rf .git/avatar ../
-cd ..
+#cd cryptopp
+#perl avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
 cd ethereum-dockers
 perl avatar.pl
 cp -rf .git/avatar ../
