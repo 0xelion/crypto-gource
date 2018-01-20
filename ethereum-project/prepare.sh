@@ -843,10 +843,10 @@ cd vim-solidity
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-cd leveldb
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
+#cd leveldb
+#perl ../../lib/avatar.pl
+#cp -rf .git/avatar ../
+#cd ..
 #cd cpp-dependencies-win64
 #perl ../../lib/avatar.pl
 #cp -rf .git/avatar ../
