@@ -118,3 +118,147 @@ cd iri
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
+cd wallet
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.lib.java
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd cli-app
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.lib.py
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.flash.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd curl.lib.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.lib.go
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ccurl.interface.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.lib.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd Snapshot.ixi
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd kerl
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd android-wallet-app
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.lib.csharp
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd wiki
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.crypto.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd sandbox
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd libopencl-stub
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd ccurl
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota-bindings
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.rs
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd MAM
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd mam.client.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd documentation
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd crypto.iota.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.rs.js
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd MAM.ixi
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd giotan
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iri-snapcraft
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd light-wallet
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd stresstest
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd bug-bounty
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd PearlDiver
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd clcontext
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd wallet-packager
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota.curl.java
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
+cd iota-gui-beta
+perl ../../lib/avatar.pl
+cp -rf .git/avatar ../
+cd ..
