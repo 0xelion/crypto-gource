@@ -17,11 +17,9 @@ git clone https://github.com/ethereum/cbc-casper
 git clone https://github.com/ethereum/evmjit
 git clone https://github.com/ethereum/vyper
 git clone https://github.com/ethereum/solc-bin
-git clone https://github.com/ethereum/solidity-test-bytecode
 git clone https://github.com/ethereum/eth-abi
 git clone https://github.com/ethereum/wiki
 git clone https://github.com/ethereum/ethereum-org
-git clone https://github.com/ethereum/hunter-cache
 git clone https://github.com/ethereum/remixd
 git clone https://github.com/ethereum/EIPs
 git clone https://github.com/ethereum/browser-solidity
@@ -76,14 +74,12 @@ git clone https://github.com/ethereum/dapp-styles
 git clone https://github.com/ethereum/meteor-package-elements
 git clone https://github.com/ethereum/stake-voice
 git clone https://github.com/ethereum/cpp-dependencies
-git clone https://github.com/ethereum/go-casper
 git clone https://github.com/ethereum/webthree-umbrella
 git clone https://github.com/ethereum/ethereum-client-binaries
 git clone https://github.com/ethereum/ethendance
 git clone https://github.com/ethereum/simplecasper
 git clone https://github.com/ethereum/oyente
 git clone https://github.com/ethereum/diary
-git clone https://github.com/ethereum/meteor-dapp-whisper-chat-client
 git clone https://github.com/ethereum/ethereum-console
 git clone https://github.com/ethereum/libsnark
 git clone https://github.com/ethereum/scavenger_hunt
@@ -91,7 +87,6 @@ git clone https://github.com/ethereum/statesweep
 git clone https://github.com/ethereum/meteor-ethereum-networkinfo
 git clone https://github.com/ethereum/meteor-package-blocks
 git clone https://github.com/ethereum/interfaces
-git clone https://github.com/ethereum/evmc
 git clone https://github.com/ethereum/webthree-helpers
 git clone https://github.com/ethereum/webthree
 git clone https://github.com/ethereum/libweb3core
@@ -103,12 +98,8 @@ git clone https://github.com/ethereum/libwhisper
 git clone https://github.com/ethereum/ethereum-buildbot
 git clone https://github.com/ethereum/test-tools
 git clone https://github.com/ethereum/vim-solidity
-git clone https://github.com/ethereum/leveldb
-git clone https://github.com/ethereum/cpp-dependencies-win64
-git clone https://github.com/ethereum/cryptopp
 git clone https://github.com/ethereum/ethereum-dockers
 git clone https://github.com/ethereum/ethereum-ppa
-git clone https://github.com/ethereum/jenkins-docker
 git clone https://github.com/ethereum/guide
 git clone https://github.com/ethereum/bench
 git clone https://github.com/ethereum/devp2p
@@ -125,7 +116,6 @@ git clone https://github.com/ethereum/solidity.js
 git clone https://github.com/ethereum/ethereum.org
 git clone https://github.com/ethereum/system-testing
 git clone https://github.com/ethereum/jeff
-git clone https://github.com/ethereum/gav
 git clone https://github.com/ethereum/go-build
 git clone https://github.com/ethereum/natspec.js
 git clone https://github.com/ethereum/profiling
@@ -137,12 +127,10 @@ git clone https://github.com/ethereum/foundation
 git clone https://github.com/ethereum/tryethereum
 git clone https://github.com/ethereum/mining
 git clone https://github.com/ethereum/news
-git clone https://github.com/ethereum/branding
 
 gource --output-custom-log yellowpaper.txt yellowpaper
 gource --output-custom-log solidity.txt solidity
 gource --output-custom-log cpp-ethereum.txt cpp-ethereum
-gource --output-custom-log tests.txt tests
 gource --output-custom-log eth-bloom.txt eth-bloom
 gource --output-custom-log py-evm.txt py-evm
 gource --output-custom-log go-ethereum.txt go-ethereum
@@ -158,11 +146,9 @@ gource --output-custom-log cbc-casper.txt cbc-casper
 gource --output-custom-log evmjit.txt evmjit
 gource --output-custom-log vyper.txt vyper
 gource --output-custom-log solc-bin.txt solc-bin
-gource --output-custom-log solidity-test-bytecode.txt solidity-test-bytecode
 gource --output-custom-log eth-abi.txt eth-abi
 gource --output-custom-log wiki.txt wiki
 gource --output-custom-log ethereum-org.txt ethereum-org
-gource --output-custom-log hunter-cache.txt hunter-cache
 gource --output-custom-log remixd.txt remixd
 gource --output-custom-log EIPs.txt EIPs
 gource --output-custom-log browser-solidity.txt browser-solidity
@@ -217,14 +203,12 @@ gource --output-custom-log dapp-styles.txt dapp-styles
 gource --output-custom-log meteor-package-elements.txt meteor-package-elements
 gource --output-custom-log stake-voice.txt stake-voice
 gource --output-custom-log cpp-dependencies.txt cpp-dependencies
-gource --output-custom-log go-casper.txt go-casper
 gource --output-custom-log webthree-umbrella.txt webthree-umbrella
 gource --output-custom-log ethereum-client-binaries.txt ethereum-client-binaries
 gource --output-custom-log ethendance.txt ethendance
 gource --output-custom-log simplecasper.txt simplecasper
 gource --output-custom-log oyente.txt oyente
 gource --output-custom-log diary.txt diary
-gource --output-custom-log meteor-dapp-whisper-chat-client.txt meteor-dapp-whisper-chat-client
 gource --output-custom-log ethereum-console.txt ethereum-console
 gource --output-custom-log libsnark.txt libsnark
 gource --output-custom-log scavenger_hunt.txt scavenger_hunt
@@ -232,7 +216,6 @@ gource --output-custom-log statesweep.txt statesweep
 gource --output-custom-log meteor-ethereum-networkinfo.txt meteor-ethereum-networkinfo
 gource --output-custom-log meteor-package-blocks.txt meteor-package-blocks
 gource --output-custom-log interfaces.txt interfaces
-gource --output-custom-log evmc.txt evmc
 gource --output-custom-log webthree-helpers.txt webthree-helpers
 gource --output-custom-log webthree.txt webthree
 gource --output-custom-log libweb3core.txt libweb3core
@@ -244,12 +227,8 @@ gource --output-custom-log libwhisper.txt libwhisper
 gource --output-custom-log ethereum-buildbot.txt ethereum-buildbot
 gource --output-custom-log test-tools.txt test-tools
 gource --output-custom-log vim-solidity.txt vim-solidity
-gource --output-custom-log leveldb.txt leveldb
-gource --output-custom-log cpp-dependencies-win64.txt cpp-dependencies-win64
-gource --output-custom-log cryptopp.txt cryptopp
 gource --output-custom-log ethereum-dockers.txt ethereum-dockers
 gource --output-custom-log ethereum-ppa.txt ethereum-ppa
-gource --output-custom-log jenkins-docker.txt jenkins-docker
 gource --output-custom-log guide.txt guide
 gource --output-custom-log bench.txt bench
 gource --output-custom-log devp2p.txt devp2p
@@ -266,7 +245,6 @@ gource --output-custom-log solidity.js.txt solidity.js
 gource --output-custom-log ethereum.org.txt ethereum.org
 gource --output-custom-log system-testing.txt system-testing
 gource --output-custom-log jeff.txt jeff
-gource --output-custom-log gav.txt gav
 gource --output-custom-log go-build.txt go-build
 gource --output-custom-log natspec.js.txt natspec.js
 gource --output-custom-log profiling.txt profiling
@@ -278,7 +256,6 @@ gource --output-custom-log foundation.txt foundation
 gource --output-custom-log tryethereum.txt tryethereum
 gource --output-custom-log mining.txt mining
 gource --output-custom-log news.txt news
-gource --output-custom-log branding.txt branding
 
 sed -i -r "s#(.+)\|#\1|/yellowpaper#" yellowpaper.txt
 sed -i -r "s#(.+)\|#\1|/solidity#" solidity.txt
@@ -299,11 +276,9 @@ sed -i -r "s#(.+)\|#\1|/cbc-casper#" cbc-casper.txt
 sed -i -r "s#(.+)\|#\1|/evmjit#" evmjit.txt
 sed -i -r "s#(.+)\|#\1|/vyper#" vyper.txt
 sed -i -r "s#(.+)\|#\1|/solc-bin#" solc-bin.txt
-sed -i -r "s#(.+)\|#\1|/solidity-test-bytecode#" solidity-test-bytecode.txt
 sed -i -r "s#(.+)\|#\1|/eth-abi#" eth-abi.txt
 sed -i -r "s#(.+)\|#\1|/wiki#" wiki.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-org#" ethereum-org.txt
-sed -i -r "s#(.+)\|#\1|/hunter-cache#" hunter-cache.txt
 sed -i -r "s#(.+)\|#\1|/remixd#" remixd.txt
 sed -i -r "s#(.+)\|#\1|/EIPs#" EIPs.txt
 sed -i -r "s#(.+)\|#\1|/browser-solidity#" browser-solidity.txt
@@ -358,14 +333,12 @@ sed -i -r "s#(.+)\|#\1|/dapp-styles#" dapp-styles.txt
 sed -i -r "s#(.+)\|#\1|/meteor-package-elements#" meteor-package-elements.txt
 sed -i -r "s#(.+)\|#\1|/stake-voice#" stake-voice.txt
 sed -i -r "s#(.+)\|#\1|/cpp-dependencies#" cpp-dependencies.txt
-sed -i -r "s#(.+)\|#\1|/go-casper#" go-casper.txt
 sed -i -r "s#(.+)\|#\1|/webthree-umbrella#" webthree-umbrella.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-client-binaries#" ethereum-client-binaries.txt
 sed -i -r "s#(.+)\|#\1|/ethendance#" ethendance.txt
 sed -i -r "s#(.+)\|#\1|/simplecasper#" simplecasper.txt
 sed -i -r "s#(.+)\|#\1|/oyente#" oyente.txt
 sed -i -r "s#(.+)\|#\1|/diary#" diary.txt
-sed -i -r "s#(.+)\|#\1|/meteor-dapp-whisper-chat-client#" meteor-dapp-whisper-chat-client.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-console#" ethereum-console.txt
 sed -i -r "s#(.+)\|#\1|/libsnark#" libsnark.txt
 sed -i -r "s#(.+)\|#\1|/scavenger_hunt#" scavenger_hunt.txt
@@ -373,7 +346,6 @@ sed -i -r "s#(.+)\|#\1|/statesweep#" statesweep.txt
 sed -i -r "s#(.+)\|#\1|/meteor-ethereum-networkinfo#" meteor-ethereum-networkinfo.txt
 sed -i -r "s#(.+)\|#\1|/meteor-package-blocks#" meteor-package-blocks.txt
 sed -i -r "s#(.+)\|#\1|/interfaces#" interfaces.txt
-sed -i -r "s#(.+)\|#\1|/evmc#" evmc.txt
 sed -i -r "s#(.+)\|#\1|/webthree-helpers#" webthree-helpers.txt
 sed -i -r "s#(.+)\|#\1|/webthree#" webthree.txt
 sed -i -r "s#(.+)\|#\1|/libweb3core#" libweb3core.txt
@@ -385,12 +357,8 @@ sed -i -r "s#(.+)\|#\1|/libwhisper#" libwhisper.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-buildbot#" ethereum-buildbot.txt
 sed -i -r "s#(.+)\|#\1|/test-tools#" test-tools.txt
 sed -i -r "s#(.+)\|#\1|/vim-solidity#" vim-solidity.txt
-sed -i -r "s#(.+)\|#\1|/leveldb#" leveldb.txt
-sed -i -r "s#(.+)\|#\1|/cpp-dependencies-win64#" cpp-dependencies-win64.txt
-sed -i -r "s#(.+)\|#\1|/cryptopp#" cryptopp.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-dockers#" ethereum-dockers.txt
 sed -i -r "s#(.+)\|#\1|/ethereum-ppa#" ethereum-ppa.txt
-sed -i -r "s#(.+)\|#\1|/jenkins-docker#" jenkins-docker.txt
 sed -i -r "s#(.+)\|#\1|/guide#" guide.txt
 sed -i -r "s#(.+)\|#\1|/bench#" bench.txt
 sed -i -r "s#(.+)\|#\1|/devp2p#" devp2p.txt
@@ -407,7 +375,6 @@ sed -i -r "s#(.+)\|#\1|/solidity.js#" solidity.js.txt
 sed -i -r "s#(.+)\|#\1|/ethereum.org#" ethereum.org.txt
 sed -i -r "s#(.+)\|#\1|/system-testing#" system-testing.txt
 sed -i -r "s#(.+)\|#\1|/jeff#" jeff.txt
-sed -i -r "s#(.+)\|#\1|/gav#" gav.txt
 sed -i -r "s#(.+)\|#\1|/go-build#" go-build.txt
 sed -i -r "s#(.+)\|#\1|/natspec.js#" natspec.js.txt
 sed -i -r "s#(.+)\|#\1|/profiling#" profiling.txt
@@ -419,9 +386,8 @@ sed -i -r "s#(.+)\|#\1|/foundation#" foundation.txt
 sed -i -r "s#(.+)\|#\1|/tryethereum#" tryethereum.txt
 sed -i -r "s#(.+)\|#\1|/mining#" mining.txt
 sed -i -r "s#(.+)\|#\1|/news#" news.txt
-sed -i -r "s#(.+)\|#\1|/branding#" branding.txt
 
-cat yellowpaper.txt solidity.txt cpp-ethereum.txt tests.txt eth-bloom.txt py-evm.txt go-ethereum.txt ethereumj.txt eth-tester.txt web3.py.txt homestead-guide.txt remix.txt web3.js.txt plasma.txt mist.txt cbc-casper.txt evmjit.txt vyper.txt solc-bin.txt solidity-test-bytecode.txt eth-abi.txt wiki.txt ethereum-org.txt hunter-cache.txt remixd.txt EIPs.txt browser-solidity.txt meteor-dapp-wallet.txt swarm-dapps.txt py-trie.txt sharding.txt eth-utils.txt eth-keys.txt research.txt pyethereum.txt py_pairing.txt casper.txt solc-js.txt remix-live.txt ethereum-org-website.txt populus.txt pyethapp.txt py-geth.txt pydevp2p.txt ethash.txt emacs-solidity.txt pyrlp.txt eth-keyfile.txt ens-registrar-dapp.txt dopple.txt pm.txt moon-browser.txt pyeth_keys.txt ens.txt homebrew-ethereum.txt py-solc.txt ecp.txt dapp-bin.txt py_ecc.txt documentation.txt common.txt solidity-examples.txt ropsten.txt serpent.txt meteor-dapp-catalog.txt moon-lang.txt btcrelay.txt blockies.txt langlab.txt meteor-package-accounts.txt moon-tool.txt meteor-package-tools.txt rpc-tests.txt benchmarking.txt dapp-styles.txt meteor-package-elements.txt stake-voice.txt cpp-dependencies.txt go-casper.txt webthree-umbrella.txt ethereum-client-binaries.txt ethendance.txt simplecasper.txt oyente.txt diary.txt meteor-dapp-whisper-chat-client.txt ethereum-console.txt libsnark.txt scavenger_hunt.txt statesweep.txt meteor-ethereum-networkinfo.txt meteor-package-blocks.txt interfaces.txt evmc.txt webthree-helpers.txt webthree.txt libweb3core.txt libethereum.txt alethzero.txt mix.txt economic-modeling.txt libwhisper.txt ethereum-buildbot.txt test-tools.txt vim-solidity.txt leveldb.txt cpp-dependencies-win64.txt cryptopp.txt ethereum-dockers.txt ethereum-ppa.txt jenkins-docker.txt guide.txt bench.txt devp2p.txt ethbot.txt node-ethereum.txt ethereum-docs.txt gethkey.txt cpp-ethereum-cmake.txt devcommon.txt genesis_block_generator.txt frontier-guide.txt pyethsaletool.txt solidity.js.txt ethereum.org.txt system-testing.txt jeff.txt gav.txt go-build.txt natspec.js.txt profiling.txt cpp-ethash.txt ethdev-site.txt www.txt serpent-go.txt foundation.txt tryethereum.txt mining.txt news.txt branding.txt | sort -n > ethereum-project.txt
+cat yellowpaper.txt solidity.txt cpp-ethereum.txt tests.txt eth-bloom.txt py-evm.txt go-ethereum.txt ethereumj.txt eth-tester.txt web3.py.txt homestead-guide.txt remix.txt web3.js.txt plasma.txt mist.txt cbc-casper.txt evmjit.txt vyper.txt solc-bin.txt eth-abi.txt wiki.txt ethereum-org.txt remixd.txt EIPs.txt browser-solidity.txt meteor-dapp-wallet.txt swarm-dapps.txt py-trie.txt sharding.txt eth-utils.txt eth-keys.txt research.txt pyethereum.txt py_pairing.txt casper.txt solc-js.txt remix-live.txt ethereum-org-website.txt populus.txt pyethapp.txt py-geth.txt pydevp2p.txt ethash.txt emacs-solidity.txt pyrlp.txt eth-keyfile.txt ens-registrar-dapp.txt dopple.txt pm.txt moon-browser.txt pyeth_keys.txt ens.txt homebrew-ethereum.txt py-solc.txt ecp.txt dapp-bin.txt py_ecc.txt documentation.txt common.txt solidity-examples.txt ropsten.txt serpent.txt meteor-dapp-catalog.txt moon-lang.txt btcrelay.txt blockies.txt langlab.txt meteor-package-accounts.txt moon-tool.txt meteor-package-tools.txt rpc-tests.txt benchmarking.txt dapp-styles.txt meteor-package-elements.txt stake-voice.txt cpp-dependencies.txt webthree-umbrella.txt ethereum-client-binaries.txt ethendance.txt simplecasper.txt oyente.txt diary.txt ethereum-console.txt libsnark.txt scavenger_hunt.txt statesweep.txt meteor-ethereum-networkinfo.txt meteor-package-blocks.txt interfaces.txt webthree-helpers.txt webthree.txt libweb3core.txt libethereum.txt alethzero.txt mix.txt economic-modeling.txt libwhisper.txt ethereum-buildbot.txt test-tools.txt vim-solidity.txt ethereum-dockers.txt ethereum-ppa.txt guide.txt bench.txt devp2p.txt ethbot.txt node-ethereum.txt ethereum-docs.txt gethkey.txt cpp-ethereum-cmake.txt devcommon.txt genesis_block_generator.txt frontier-guide.txt pyethsaletool.txt solidity.js.txt ethereum.org.txt system-testing.txt jeff.txt go-build.txt natspec.js.txt profiling.txt cpp-ethash.txt ethdev-site.txt www.txt serpent-go.txt foundation.txt tryethereum.txt mining.txt news.txt | sort -n > ethereum-project.txt
 
 cd yellowpaper
 perl ../../lib/avatar.pl
@@ -499,10 +465,6 @@ cd solc-bin
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-cd solidity-test-bytecode
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
 cd eth-abi
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
@@ -512,10 +474,6 @@ perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-org
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
-cd hunter-cache
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
@@ -735,10 +693,6 @@ cd cpp-dependencies
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-cd go-casper
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
 cd webthree-umbrella
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
@@ -760,10 +714,6 @@ perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd diary
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
-cd meteor-dapp-whisper-chat-client
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
@@ -792,10 +742,6 @@ perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd interfaces
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
-cd evmc
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
@@ -843,27 +789,11 @@ cd vim-solidity
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-cd leveldb
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
-cd cpp-dependencies-win64
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
-cd cryptopp
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
 cd ethereum-dockers
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-ppa
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
-cd jenkins-docker
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
@@ -931,10 +861,6 @@ cd jeff
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-cd gav
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
 cd go-build
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
@@ -976,10 +902,6 @@ perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd news
-perl ../../lib/avatar.pl
-cp -rf .git/avatar ../
-cd ..
-cd branding
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
