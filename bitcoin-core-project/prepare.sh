@@ -19,17 +19,14 @@ cd bitcoin
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-
 cd bips
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-
 cd libblkmaker
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
-
 cd libbase58
 perl ../../lib/avatar.pl
 cp -rf .git/avatar ../
