@@ -11,4 +11,4 @@ The easiest to do so is by using the `prepare-clean.sh` script or by using this 
 
 **Show Vitalik Buterin properly**
 
-To do so, in `ethereum-project.txt` rename all references to `vbutterin` by `Vitalik Buterin` and copy `Vitalik Buterin.png` from the `manual-fix/avatar` folder to `ethereum-project/avatar` folder.
+To do so, in `ethereum-project.txt` rename all references to `vbutterin` by `Vitalik Buterin` and copy `Vitalik Buterin.png` from the `manual-fix/avatar` folder to `full-project/ethereum-project/avatar` folder.

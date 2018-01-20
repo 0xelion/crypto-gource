@@ -16,18 +16,18 @@ sed -i -r "s#(.+)\|#\1|/libbase58#" libbase58.txt
 cat bitcoin.txt bips.txt libblkmaker.txt libbase58.txt | sort -n > bitcoin-core-project.txt
 
 cd bitcoin
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd bips
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd libblkmaker
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd libbase58
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..

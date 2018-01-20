@@ -17,4 +17,4 @@ The IOTA project date back to 2014 but the actual IOTA developpment we known onl
 
 **Show Dominik Schiener properly**
 
-To do so, in `iota-project.txt` rename all references to `domschiener` by `Dominik Schiener` and `Come-from-Beyond` by `Sergey Ivancheglo` and copy `Dominik Schiener.png` and `Sergey Ivancheglo.png` from the `manual-fix/avatar` folder to `iota-project/avatar` folder.
+To do so, in `iota-project.txt` rename all references to `domschiener` by `Dominik Schiener` and `Come-from-Beyond` by `Sergey Ivancheglo` and copy `Dominik Schiener.png` and `Sergey Ivancheglo.png` from the `manual-fix/avatar` folder to `full-project/iota-project/avatar` folder.

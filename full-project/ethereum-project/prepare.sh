@@ -424,562 +424,562 @@ sed -i -r "s#(.+)\|#\1|/branding#" branding.txt
 cat yellowpaper.txt solidity.txt cpp-ethereum.txt tests.txt eth-bloom.txt py-evm.txt go-ethereum.txt ethereumj.txt eth-tester.txt web3.py.txt homestead-guide.txt remix.txt web3.js.txt plasma.txt mist.txt cbc-casper.txt evmjit.txt vyper.txt solc-bin.txt solidity-test-bytecode.txt eth-abi.txt wiki.txt ethereum-org.txt hunter-cache.txt remixd.txt EIPs.txt browser-solidity.txt meteor-dapp-wallet.txt swarm-dapps.txt py-trie.txt sharding.txt eth-utils.txt eth-keys.txt research.txt pyethereum.txt py_pairing.txt casper.txt solc-js.txt remix-live.txt ethereum-org-website.txt populus.txt pyethapp.txt py-geth.txt pydevp2p.txt ethash.txt emacs-solidity.txt pyrlp.txt eth-keyfile.txt ens-registrar-dapp.txt dopple.txt pm.txt moon-browser.txt pyeth_keys.txt ens.txt homebrew-ethereum.txt py-solc.txt ecp.txt dapp-bin.txt py_ecc.txt documentation.txt common.txt solidity-examples.txt ropsten.txt serpent.txt meteor-dapp-catalog.txt moon-lang.txt btcrelay.txt blockies.txt langlab.txt meteor-package-accounts.txt moon-tool.txt meteor-package-tools.txt rpc-tests.txt benchmarking.txt dapp-styles.txt meteor-package-elements.txt stake-voice.txt cpp-dependencies.txt go-casper.txt webthree-umbrella.txt ethereum-client-binaries.txt ethendance.txt simplecasper.txt oyente.txt diary.txt meteor-dapp-whisper-chat-client.txt ethereum-console.txt libsnark.txt scavenger_hunt.txt statesweep.txt meteor-ethereum-networkinfo.txt meteor-package-blocks.txt interfaces.txt evmc.txt webthree-helpers.txt webthree.txt libweb3core.txt libethereum.txt alethzero.txt mix.txt economic-modeling.txt libwhisper.txt ethereum-buildbot.txt test-tools.txt vim-solidity.txt leveldb.txt cpp-dependencies-win64.txt cryptopp.txt ethereum-dockers.txt ethereum-ppa.txt jenkins-docker.txt guide.txt bench.txt devp2p.txt ethbot.txt node-ethereum.txt ethereum-docs.txt gethkey.txt cpp-ethereum-cmake.txt devcommon.txt genesis_block_generator.txt frontier-guide.txt pyethsaletool.txt solidity.js.txt ethereum.org.txt system-testing.txt jeff.txt gav.txt go-build.txt natspec.js.txt profiling.txt cpp-ethash.txt ethdev-site.txt www.txt serpent-go.txt foundation.txt tryethereum.txt mining.txt news.txt branding.txt | sort -n > ethereum-project.txt
 
 cd yellowpaper
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd solidity
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd cpp-ethereum
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd tests
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd eth-bloom
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd py-evm
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd go-ethereum
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereumj
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd eth-tester
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd web3.py
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd homestead-guide
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd remix
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd web3.js
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd plasma
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd mist
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd cbc-casper
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd evmjit
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd vyper
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd solc-bin
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd solidity-test-bytecode
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd eth-abi
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd wiki
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-org
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd hunter-cache
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd remixd
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd EIPs
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd browser-solidity
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-dapp-wallet
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd swarm-dapps
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd py-trie
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd sharding
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd eth-utils
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd eth-keys
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd research
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd pyethereum
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd py_pairing
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd casper
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd solc-js
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd remix-live
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-org-website
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd populus
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd pyethapp
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd py-geth
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd pydevp2p
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethash
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd emacs-solidity
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd pyrlp
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd eth-keyfile
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ens-registrar-dapp
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd dopple
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd pm
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd moon-browser
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd pyeth_keys
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ens
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd homebrew-ethereum
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd py-solc
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ecp
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd dapp-bin
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd py_ecc
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd documentation
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd common
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd solidity-examples
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ropsten
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd serpent
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-dapp-catalog
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd moon-lang
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd btcrelay
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd blockies
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd langlab
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-package-accounts
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd moon-tool
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-package-tools
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd rpc-tests
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd benchmarking
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd dapp-styles
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-package-elements
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd stake-voice
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd cpp-dependencies
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd go-casper
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd webthree-umbrella
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-client-binaries
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethendance
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd simplecasper
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd oyente
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd diary
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-dapp-whisper-chat-client
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-console
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd libsnark
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd scavenger_hunt
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd statesweep
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-ethereum-networkinfo
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd meteor-package-blocks
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd interfaces
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd evmc
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd webthree-helpers
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd webthree
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd libweb3core
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd libethereum
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd alethzero
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd mix
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd economic-modeling
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd libwhisper
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-buildbot
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd test-tools
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd vim-solidity
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd leveldb
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd cpp-dependencies-win64
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd cryptopp
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-dockers
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-ppa
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd jenkins-docker
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd guide
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd bench
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd devp2p
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethbot
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd node-ethereum
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum-docs
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd gethkey
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd cpp-ethereum-cmake
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd devcommon
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd genesis_block_generator
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd frontier-guide
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd pyethsaletool
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd solidity.js
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethereum.org
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd system-testing
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd jeff
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd gav
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd go-build
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd natspec.js
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd profiling
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd cpp-ethash
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd ethdev-site
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd www
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd serpent-go
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd foundation
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd tryethereum
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd mining
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd news
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
 cd branding
-perl ../../lib/avatar.pl
+perl ../../../lib/avatar.pl
 cp -rf .git/avatar ../
 cd ..
