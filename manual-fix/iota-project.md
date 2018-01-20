@@ -11,9 +11,9 @@ The easiest to do so is by using the `prepare-clean.sh` script or by using this 
 
 **Start at the beginning of the developpment**
 
-The IOTA project date back to 2014 but the actual IOTA developpment we known only start about july 2016, to start at this date and not 2 year before use the `preview-clean.sh` and `render-clean.sh` or add the following parameter to gource :
+The IOTA project date back to 2014 but the actual IOTA developpment we known only start the 11th of june 2016, to start at this date and not 2 year before use the `preview-clean.sh` and `render-clean.sh` or add the following parameter to gource :
 
-`--start-date '2016-07-01'`
+`--start-date '2016-06-11'`
 
 **Show Dominik Schiener properly**
 
