@@ -14,3 +14,7 @@ The easiest to do so is by using the `prepare-clean.sh` script or by using this 
 The IOTA project date back to 2014 but the actual IOTA developpment we known only start about july 2016, to start at this date and not 2 year before use the `preview-clean.sh` and `render-clean.sh` or add the following parameter to gource :
 
 `--start-date '2016-07-01'`
+
+**Show Dominik Schiener properly**
+
+To do so, in `iota-project.txt` rename all references to `domschiener` by `Dominik Schiener` and `Come-from-Beyond` by `Sergey Ivancheglo` and copy `Dominik Schiener.png` and `Sergey Ivancheglo.png` from the `manual-fix/avatar` folder to `iota-project/avatar` folder.
