@@ -1,0 +1,10 @@
+tezos
+bips
+tezos-papers
+zarith-benchmark
+optimal_stack
+Flex
+tezoscoq
+fundraiser-tools
+tezos-explorer
+irmin
