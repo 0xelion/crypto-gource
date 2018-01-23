@@ -1,0 +1,9 @@
+1426464000|Sia 0.2 Released
+1430956800|Sia 0.3 Released
+1440720000|Sia 0.4 Released
+1453766400|Sia 0.5 Released
+1463875200|Sia 0.6 Released
+1467158400|Sia 1.0 Released
+1484784000|Sia 1.1.0 Released
+1494720000|Sia 1.2.0 Released
+1500940800|Sia 1.3.0 Released
