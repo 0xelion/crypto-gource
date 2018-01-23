@@ -1,0 +1,9 @@
+1477612800|Zcash 1.0 Released
+1481760000|Zcash 1.0.4 Released
+1489017600|Zcash 1.0.7 Released
+1492128000|Zcash 1.0.8 Released
+1498521600|Zcash 1.0.10 Released
+1502841600|Zcash 1.0.11 Released
+1506556800|Zcash 1.0.12 Released
+1511222400|Zcash 1.0.13 Released
+1515456000|Zcash 1.0.14 Released

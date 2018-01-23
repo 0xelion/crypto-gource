@@ -1,0 +1,11 @@
+zcash
+zips
+zcash-docs
+librustzcash
+gitian.sigs
+zcash-seeder
+mpc
+zcash-gitian
+logos
+zfaucet
+libsnark
