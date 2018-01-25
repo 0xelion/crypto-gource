@@ -1,0 +1,19 @@
+1415664000|Version Alpha 1 Released
+1417478400|Version Alpha 2 Released
+1419206400|Version Beta 3.0.0 Released
+1421452800|Version Beta 4.0.0 Released
+1423785600|Version Beta 5.0.0 Released
+1441065600|Version Beta 6.1.5 Released
+1442707200|Version RC 7.0.1 Released
+1447286400|Version 7.1.2 Released
+1449792000|Version 7.2.0 Released
+1454716800|Version 7.3.0 Released
+1458259200|Version 7.4.0 Released
+1461974400|Version 7.5.0 Released
+1485216000|Version 7.6.0 Released
+1486944000|Version 7.7.0 Released
+1487548800|Version 7.8.0 Released
+1496102400|Version 7.8.5 RC Released
+1498262400|Version 7.9.0 Released
+1503705600|Version 8.0 Released
+1513382400|Version 9.0 Released
