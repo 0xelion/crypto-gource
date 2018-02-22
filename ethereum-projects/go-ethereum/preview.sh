@@ -1,0 +1,1 @@
+gource -1920x1080 -r 60 --seconds-per-day 0.1 --file-idle-time 0 --key --title "Geth - go-ethereum" --caption-file caption.txt --caption-size 24 --caption-duration 5 --user-image-dir avatar/ go-ethereum-final.txt
